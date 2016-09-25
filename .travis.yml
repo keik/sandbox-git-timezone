@@ -1,6 +1,3 @@
-language: node_js
-node_js:
-  - 'node'
 sudo: false
 addons:
   apt:
@@ -9,4 +6,4 @@ addons:
     packages:
       - libstdc++-4.9-dev
 script:
-  cd repo1 && git log
+  sh -c 'cd repo1; git log'
