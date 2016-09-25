@@ -6,4 +6,4 @@ addons:
     packages:
       - libstdc++-4.9-dev
 script:
-  git log
+  cd repo1 && git log
